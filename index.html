@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>curve</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="application">
+      <h1>Moving Objects On Bezier Curve</h1>
+      <canvas width="800" height="800" id="canvas"></canvas>
+      <button id="play-btn">Play</button>
+      <div id="speed-slider">
+        <p>Speed <span id="slider-text">50</span></p>
+        <input type="range" min="1" max="10" value="1" id="slider" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
